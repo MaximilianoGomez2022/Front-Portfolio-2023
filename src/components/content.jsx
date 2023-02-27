@@ -12,12 +12,12 @@ function Content(props){
     let [mensaje, setMensaje] = useState('')
     let [error, setError] = useState([])
     let form = useRef();
-    let errNom = document.querySelector('#error-nombre')
-    let errMail = document.querySelector('#error-mail')
-    let errMens = document.querySelector('#error-mensaje')
 
     function onSubmit(event){
         event.preventDefault()
+        let errNom = document.querySelector('#error-nombre')
+        let errMail = document.querySelector('#error-mail')
+        let errMens = document.querySelector('#error-mensaje')
 
 
 
@@ -38,7 +38,7 @@ function Content(props){
             })
         }
         
-        if (nombre === null) {
+        if (nombre === '') {
             console.log('Debés Ingresar el nombre')
             errNom.innerHTML = 'Debés Ingresar el nombre'
             errMens.innerHTML = 'Debés Ingresar el mensaje'
@@ -48,7 +48,7 @@ function Content(props){
             errNom.innerHTML= ''
         }
         
-        if (mensaje === null) {
+        if (mensaje === '') {
             console.log('Debés Ingresar el mensaje')
             errMens.innerHTML = 'Debés Ingresar el mensaje'
             let envio = document.querySelector('#error-envio')
@@ -57,7 +57,7 @@ function Content(props){
             errMens.innerHTML= ''
         }
         
-        if (mail === null) {
+        if (mail === '') {
             console.log('Debés Ingresar el mail')
             errMail.innerHTML = 'Debés Ingresar un mail válido'
             errMens.innerHTML = 'Debés Ingresar el mensaje'
