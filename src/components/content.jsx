@@ -18,9 +18,6 @@ function Content(props){
 
     function onSubmit(event){
         event.preventDefault()
-        let nomb = document.querySelector("#form-name")
-        let mai = document.querySelector("#email")
-        let mens = document.querySelector("#message")
 
 
 
@@ -41,7 +38,7 @@ function Content(props){
             })
         }
         
-        if (nomb.value === '') {
+        if (nombre === null) {
             console.log('Debés Ingresar el nombre')
             errNom.innerHTML = 'Debés Ingresar el nombre'
             errMens.innerHTML = 'Debés Ingresar el mensaje'
@@ -51,7 +48,7 @@ function Content(props){
             errNom.innerHTML= ''
         }
         
-        if (mens.value === '') {
+        if (mensaje === null) {
             console.log('Debés Ingresar el mensaje')
             errMens.innerHTML = 'Debés Ingresar el mensaje'
             let envio = document.querySelector('#error-envio')
@@ -60,7 +57,7 @@ function Content(props){
             errMens.innerHTML= ''
         }
         
-        if (mai.value === '') {
+        if (mail === null) {
             console.log('Debés Ingresar el mail')
             errMail.innerHTML = 'Debés Ingresar un mail válido'
             errMens.innerHTML = 'Debés Ingresar el mensaje'
