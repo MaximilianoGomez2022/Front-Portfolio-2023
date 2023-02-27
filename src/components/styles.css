@@ -234,12 +234,12 @@ header {
     background: #2a2b2a;
     padding: 1em;
     display: block;
-    color: white;
+    color: #e2e3c9;
     text-decoration: none;
 }
 
 #barra li a:hover {
-    background-color: #2a2b2a;
+    color: #d5d7a0;
 }
 
 #menu:target #hamburguesa li:first-child {
@@ -269,7 +269,7 @@ header {
     display: block;
     text-indent: -700px;
     overflow: hidden;
-    background: url(abrir-menu.png) center center;
+    background: url(../../public/abrir-menu.png) center center;
     background-size: cover;
     margin-top: 3px;
     margin-right: 10px;
@@ -281,7 +281,7 @@ header {
     display: block;
     text-indent: -700px;
     overflow: hidden;
-    background: url(cerrar-menu.png) center center;
+    background: url(../../public/cerrar-menu.png) center center;
     background-size: cover;
     margin-top: 3px;
     margin-right: 10px;
@@ -294,8 +294,8 @@ header {
 .banner {
     height: 300px;
     background: #334d50;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to bottom, rgba(42, 43, 42, 0.945), #2a2b2a), url(fondo-1.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to bottom,  rgba(42, 43, 42, 0.942), #2a2b2a), url(fondo-1.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+    background: -webkit-linear-gradient(to bottom, rgba(42, 43, 42, 0.945), #2a2b2a), url(../../public/fondo-1.jpeg);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom,  rgba(42, 43, 42, 0.942), #2a2b2a), url(../../public/fondo-1.jpeg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
     padding: 0px;
     padding-top: 3em;
     max-width: 100%;
