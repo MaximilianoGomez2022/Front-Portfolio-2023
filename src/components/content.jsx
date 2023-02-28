@@ -88,7 +88,7 @@ function Content(props){
     return (
         <div className="Content">
             <section class="banner" id="home">
-            <h1 className='animate__animated animate__fadeIn animate__delay-1s'>Maximilano Gomez</h1>
+            <h1 className='animate__animated animate__fadeIn animate__delay-1s'>Maximiliano Gomez</h1>
                 <div className='typewriter'>
                 <p>Desarrollador web.<span>&#160;</span></p>
                 </div>
