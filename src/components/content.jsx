@@ -103,7 +103,7 @@ function Content(props){
                     </div>
             <div class="sobremi">
                 <div className="sobremi-imagen" data-aos="fade-left" data-aos-duration="1000">
-                    <img src="foto-circ-2.png" alt="foto mía" />
+                    <img src="Maximiliano-Gomez-CV-2023-foto-02.png" alt="foto mía" />
                 </div>
                 <div class="sobremi-texto" data-aos="fade-right" data-aos-duration="1000">
                     <div className='info-yo'>
