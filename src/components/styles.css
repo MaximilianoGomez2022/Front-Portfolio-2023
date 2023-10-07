@@ -505,6 +505,10 @@ header {
     margin-bottom: 60px !important;
 }
 
+.contenedor-proyecto a {
+    text-decoration: none;
+}
+
 .contenedor-proyecto img {
     max-width: 100%;
 }
