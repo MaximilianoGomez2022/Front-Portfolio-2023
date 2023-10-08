@@ -20,7 +20,9 @@ function HomePage(){
                 {proyectos.map(({_id, name, img,link, descripcion}) =>
                 <div key={_id} className="col-md-6 contenedor-proyecto">
                 <a target={"_blank"} href={`${link}`}>
+                    <div className="contenedor-img"> 
                     <img src={`${img}`}></img>
+                    </div>
                     <h3>{name}</h3>
                     <p>{descripcion}</p> 
                     <a class="btn btn-primary" target={"_blank"} href={`${link}`}>Visitar sitio</a>
