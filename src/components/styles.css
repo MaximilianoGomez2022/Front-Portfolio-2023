@@ -497,6 +497,19 @@ header {
 
 }
 
+.contenedor-proyecto {
+    position: relative;
+    overflow: hidden;
+}
+
+.contenedor-proyecto img {
+    transition: transform 0.3s; /* La propiedad que animaremos es 'transform' con una duración de 0.3 segundos */
+}
+
+.contenedor-proyecto:hover img  {
+    transform: scale(1.1); /* Aumenta la escala de la imagen al 110% cuando se pasa el cursor sobre ellaimg */
+}
+
 .contenedor-proyecto h3 {
     text-align: left;
 }
