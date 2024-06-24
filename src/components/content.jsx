@@ -107,20 +107,21 @@ function Content(props){
                 </div>
                 <div class="sobremi-texto" data-aos="fade-right" data-aos-duration="1000">
                     <div className='info-yo'>
-                    <h3>¿Quién soy?</h3>
+                    <h3>¿QUIÉN SOY?</h3>
                     <p>Hola soy Maximiliano Gomez, vivo en el partido de Ituzaingó. Buenos Aires, Argentina.</p>
                     </div>
                     <div className='info-yo'>
-                    <h3>Estudios Secundarios</h3>
+                    <h3>ESTUDIOS SECUNDARIOS</h3>
                     <p>Tengo el título de Técnico en informática cursado en la Escuela Técnica N°1 de Ituzaingó.</p>
                     </div>
                     <div className='info-estudios'>
-                    <h3>Estudios Terciarios</h3>
-                    <p>Termimé de cursar la carrera de Desarrollo web en Escuela Da Vinci, solamente me faltan rendir algunos finales para obtener el título.</p>
+                    <h3>ESTUDIOS TERCIARIOS</h3>
+                    <p>Terminé de cursar la carrera de Desarrollo web en Escuela Da Vinci. Obteniendo así la CERTIFICACIÓN PROFESIONAL EN GESTIÓN DE MEDIOS DIGITALES, y faltando una materia para el título.</p>
                     </div>
                     <div className='info-estudios'>
-                    <h3>En la Actualidad</h3>
-                    <p>Me encuentro buscando algún empleo donde pueda colaborar con el equipo de desarrollo con lo que he aprendido, pero también dispuesto a aprender de ellos. Además este primer cuatrimestre del 2023 estaré cursando el nivel B1 de inglés en la UTN. Y mientras tanto por mi cuenta voy haciendo algunos proyectos para poder mostrar lo aprendido. A continuación dejo el link para descargar mi currículum y más abajo mis proyectos hechos hasta el día de hoy.</p>
+                    <h3>EXPERIENCIA LABORAL</h3>
+                    <p>Trabajé para la Agencia valor digital, haciendo los bocetos para los clientes y luego la maquetación y el diseño en css, en la plataforma Wordpress</p>
+                    <p>Actualmente trabajando en la empresa fixear, como desarrollador web full stack modificando un proyecto ya hecho, cambiando funcionalidad y diseños. Lenguajes usados Javascript con VUE.JS, NODE.js y MYSQL en la base de datos. Uso de gitlab para las versiones del proyecto y comandos desde la terminal para ubicar el proyecto en el servidor.</p>
                     </div>
                     <div className='descargar-cv'>
                         <a className='btn btn-dark' href='./pdf/Maximiliano-Gomez-CV-2023-v-3.pdf' download='Maximiliano-Gomez-CV-2023.pdf'>Descargar CV</a>
