@@ -1126,8 +1126,8 @@ footer h2 {
     }
 
     h2 {
-        margin-top: 15px;
-        font-weight: 700 !important;
+        padding-top: 20px;
+        font-weight: 800 !important;
     }
 
     .main {
@@ -1196,7 +1196,7 @@ footer h2 {
     }
 
     .titulo h2 {
-        font-size: 4em !important;
+        font-size: 3.8em !important;
     }
 
     h3 {
