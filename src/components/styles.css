@@ -407,6 +407,10 @@ header {
     max-width: 300px;
 }
 
+#btn-descarga {
+    color: #e2e3ac !important;
+}
+
 /*  FIN NOSOTROS  */
 
 /* HABILIDADES */

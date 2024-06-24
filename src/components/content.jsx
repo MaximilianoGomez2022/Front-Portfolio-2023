@@ -125,7 +125,7 @@ function Content(props){
                     <p>Además estoy aprendiendo el lenguaje python y proximamente estaré cursando en la UTN Machine Learning aplicado con el mismo lenguaje.</p>
                     </div>
                     <div className='descargar-cv'>
-                        <a className='btn btn-dark' href='./pdf/Maximiliano-Gomez-CV-2023-v-3.pdf' download='Maximiliano-Gomez-CV-2023.pdf'>Descargar CV</a>
+                        <a id='btn-descarga' className='btn btn-dark' href='./pdf/Maximiliano-Gomez-CV-2024.pdf' download='Maximiliano-Gomez-CV-2023.pdf'>Descargar CV</a>
                     </div>
                 </div>
             </div>
