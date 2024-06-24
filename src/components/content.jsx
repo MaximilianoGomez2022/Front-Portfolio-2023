@@ -99,7 +99,7 @@ function Content(props){
             <div className='separador-sobremi'></div>
             <section id="sobremi-section">
                     <div class="titulo" data-aos="fade-up">
-                        <h2>Sobre Mí</h2>
+                        <h2>SOBRE MÍ</h2>
                     </div>
             <div class="sobremi">
                 <div className="sobremi-imagen" data-aos="fade-left" data-aos-duration="1000">
@@ -134,7 +134,7 @@ function Content(props){
             <section id="habilidades">
             <div className='separador-habilidades'></div>
                 <div class="titulo" data-aos="fade-up">
-                    <h2>Habilidades</h2>        
+                    <h2>HABILIDADES</h2>        
                 </div>
                 <div class="flex-container-habilidades">
                     <div data-aos="fade-right">
@@ -182,14 +182,14 @@ function Content(props){
             <section className='proyectos' id='proyectos'>
             <div className='separador-proyectos'></div>
                 <div class="titulo" data-aos="fade-up">
-                    <h2>Proyectos</h2>        
+                    <h2>PROYECTOS</h2>        
                 </div>
                 {props.children}
             </section>
             <section id="contacto">
             <div className='separador-contacto'></div>
                 <div class="titulo" data-aos="fade-up">
-                    <h2>Contacto</h2>             
+                    <h2>CONTACTO</h2>             
                 </div>
                 <div class="contacto container">
                     <div class="contacto-form">
