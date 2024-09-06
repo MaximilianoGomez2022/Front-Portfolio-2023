@@ -815,6 +815,10 @@ footer h2 {
     h2 {
         font-size: 2.5em;
     }
+
+    .article-logos .flex-container-habilidades > div  {
+        margin-bottom: 50px;
+    }
 }
 
 @media only screen and (min-width: 384px) {
@@ -828,6 +832,10 @@ footer h2 {
         padding: 2em;
     }
 
+    .article-logos .flex-container-habilidades > div  {
+        margin-bottom: 80px;
+        max-width: 380px;
+    }
 
 }
 
@@ -840,6 +848,12 @@ footer h2 {
     .contacto-form form {
         padding: 40px;
     }
+
+    .article-logos .flex-container-habilidades > div  {
+        margin-bottom: 100px;
+        max-width: 380px;
+    }
+
 
 }
 
@@ -882,6 +896,16 @@ footer h2 {
 
     .form-labels > div {
         width: 100%;
+    }
+
+    .article-logos .flex-container-habilidades > div  {
+        margin-bottom: 150px;
+        max-width: 370px;
+    }
+
+    .article-logos .flex-container-habilidades > div  {
+        margin-bottom: 60px;
+        max-width: 370px;
     }
 
 }
