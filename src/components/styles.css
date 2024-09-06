@@ -795,6 +795,20 @@ footer h2 {
     margin-top: 2em;
 }
 
+/* ARTICLE LOGOS */
+
+.article-logos {
+    margin-top: 80px;
+}
+
+.article-logos h2 {
+    margin-bottom: 0px !important;
+}
+
+.article-logos .flex-container-habilidades > div  {
+    height: 300px;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 356px) {

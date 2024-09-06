@@ -186,6 +186,53 @@ function Content(props){
                     <h2>PROYECTOS</h2>        
                 </div>
                 {props.children}
+                <article className='article-logos'>
+                <h2 className='text-center'>DISEÑO DE LOGOS</h2>
+                <div class="flex-container-habilidades">
+                    <div data-aos="fade-right">
+                        <img src="logo-ari-1.svg" alt="Logo Ariel 1"/>
+                    </div>
+                    <div data-aos="fade-up">
+                        <img src="logo-ari-2.svg" alt="Logo Ariel 2"/>
+                    </div>
+                    <div data-aos="fade-left">
+                        <img src="logo-ari-3.svg" alt="Logo Ariel 3"/>
+                    </div>
+                </div>
+                <div class="flex-container-habilidades">
+                    <div data-aos="fade-right">
+                        <img src="logo-bianca-1.svg" alt="Logo bianca 1"/>
+                    </div>
+                    <div data-aos="fade-up">
+                        <img src="logo-bianca-2.svg" alt="Logo bianca 2"/>
+                    </div>
+                    <div data-aos="fade-left">
+                        <img src="logo-bianca-blanco.svg" alt="Logo bianca 3"/>
+                    </div>
+                </div>
+                <div class="flex-container-habilidades">
+                    <div data-aos="fade-right">
+                        <img src="logo-taste.svg" alt="Logo bianca 1"/>
+                    </div>
+                    <div data-aos="fade-up">
+                        <img src="logo-taste-queso.svg" alt="Logo bianca 2"/>
+                    </div>
+                    <div data-aos="fade-left">
+                        <img src="logo-taste-jamon.svg" alt="Logo bianca 3"/>
+                    </div>
+                </div>
+                <div class="flex-container-habilidades">
+                    <div data-aos="fade-right">
+                        <img src="autoclases-logo.svg" alt="Logo bianca 1"/>
+                    </div>
+                    <div data-aos="fade-up">
+                        <img src="autoclases-logo-2.svg" alt="Logo bianca 2"/>
+                    </div>
+                    <div data-aos="fade-left">
+                        <img src="autoclases-logo-blanco.svg" alt="Logo bianca 3"/>
+                    </div>
+                </div>
+            </article>
             </section>
             <section id="contacto">
             <div className='separador-contacto'></div>
