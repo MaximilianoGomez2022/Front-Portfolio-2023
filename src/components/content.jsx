@@ -120,9 +120,9 @@ function Content(props){
                     </div>
                     <div className='info-estudios'>
                     <h3>EXPERIENCIA LABORAL</h3>
-                    <p>Trabajé para la <b>AGENCIA VALOR DIGITAL</b>, haciendo los bocetos para los clientes y luego la maquetación y el diseño en css, en la plataforma Wordpress. Uso de Filezilla para subir archivos al servidor.</p>
-                    <p>Actualmente trabajando en la empresa <b>FIXEAR</b>, como desarrollador web full stack modificando un proyecto ya hecho, cambiando funcionalidad y diseños. Lenguajes usados Javascript con VUE.JS, NODE.js y MYSQL en la base de datos. Uso de gitlab para las versiones del proyecto y comandos desde la terminal para ubicar el proyecto en el servidor.</p>
-                    <p>Además estoy aprendiendo el lenguaje python y proximamente estaré cursando en la UTN Machine Learning aplicado con el mismo lenguaje.</p>
+                    <p><b>AGENCIA VALOR DIGITAL</b>, haciendo los bocetos para los clientes y luego la maquetación y el diseño en css, en la plataforma Wordpress. Uso de Filezilla para subir archivos al servidor.</p>
+                    <p>También trabajé en la empresa <b>FIXEAR</b>, como desarrollador front-end modificando un proyecto ya hecho, cambiando funcionalidad y diseños usando el framework Vue.js. Uso de gitlab para las versiones del proyecto y comandos desde la terminal para ubicar el proyecto en el servidor.</p>
+                    <p>Actualmente cursando en la UTN Machine learning con python</p>
                     </div>
                     <div className='descargar-cv'>
                         <a id='btn-descarga' className='btn btn-dark' href='./pdf/Maximiliano-Gomez-CV-2024.pdf' download='Maximiliano-Gomez-CV-2024.pdf'>Descargar CV</a>
