@@ -108,7 +108,7 @@ function Content(props){
                 <div class="sobremi-texto" data-aos="fade-right" data-aos-duration="1000">
                     <div className='info-yo'>
                     <h3>¿QUIÉN SOY?</h3>
-                    <p>Hola soy Maximiliano Gomez, vivo en el partido de Ituzaingó. Buenos Aires, Argentina.</p>
+                    <p>Hola soy Maximiliano Gomez, actualmente resido en la Ciudad Autónoma de Buenos Aires, Argentina.</p>
                     </div>
                     <div className='info-yo'>
                     <h3>ESTUDIOS SECUNDARIOS</h3>
