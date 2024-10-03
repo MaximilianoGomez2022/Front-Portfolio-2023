@@ -18,28 +18,45 @@ p {
     letter-spacing: 0.1em;
 }
 
-h1 {
-    font-weight: 700 !important;
+.texto-banner span {
+    font-size: 2em;
+    font-weight: 600;
+    color: #e2e3ac;
+}
+
+.texto-banner {
+    padding-left: 20px;
+}
+
+.texto-banner h1 {
+    font-weight: 800 !important;
+    letter-spacing: 4px;
     margin: auto;
     margin-bottom: 20px;
-    text-align: center !important;
     color: #e2e3ac;
-    font-size: 5em !important;
-    font-size: 3em !important;
+    font-size: 4.6em;
+    font-size: 2em;
+}
+
+i {
+    color: #e2e3ac;
+    font-size: 100px;
+    padding-top: 50px;
 }
 
 .typewriter {
     display: table;
-    margin: auto;
+    padding-left: 100px;
 }
 
 .typewriter p {
     position: relative;
+    font-size: 30px !important;
 }
 
 .typewriter p span {
     position: absolute;
-    right: 0;
+    right: 0px;
     width: 0;
     background: #2a2b2a;
     border-left: 1px solid #e2e3ac;
@@ -322,12 +339,6 @@ header {
     margin: auto;
     padding-top: 8em;
     padding-bottom: 6em;
-}
-
-.separador-sobremi {
-    clip-path: polygon(50% 100%, 0 0, 100% 0);
-    background: #2a2b2a;
-    height: 30px;
 }
 
 .titulo {
@@ -823,6 +834,24 @@ footer h2 {
 
 @media only screen and (min-width: 384px) {
 
+    .texto-banner {
+        padding-left: 20px;
+        padding-top: 2em;
+    }
+
+    .texto-banner p {
+        font-size: 1em;
+    }
+
+    .texto-banner h1 {
+        font-size: 2em;
+    }
+
+    .banner {
+        height: 390px;
+        padding-top: 1.2em;
+    }
+
     .flex-container-habilidades > div p {
         height: 250px;
     }
@@ -840,6 +869,25 @@ footer h2 {
 }
 
 @media only screen and (min-width: 480px) {
+
+    .texto-banner {
+        padding-left: 40px;
+    }
+
+    .banner {
+        height: 390px;
+        padding-top: 1.2em;
+    }
+
+    .texto-banner span {
+        font-size: 3em;
+        font-weight: 600;
+        color: #e2e3ac;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
    
     .flex-container-habilidades > div {
         margin-bottom: 125px;
@@ -859,8 +907,22 @@ footer h2 {
 
 @media only screen and (min-width: 576px) {
 
+    .texto-banner {
+        padding-left: 60px;
+    }
+
+    .banner {
+        height: 390px;
+        padding-top: 1.2em;
+    }
+
+
     h2 {
         font-size: 2.5em;
+    }
+
+    h1 {
+        font-size: 3em;
     }
 
     .flex-container-habilidades > div {
@@ -931,8 +993,8 @@ footer h2 {
     }
 
     .banner {
-        height: 350px;
-        padding-top: 5.5em;
+        height: 390px;
+        padding-top: 1.2em;
     }
 
     .nosotros-video {
@@ -961,7 +1023,20 @@ footer h2 {
 @media only screen and (min-width: 991px) {
 
     .banner {
-        height: 400px;
+        height: 430px;
+        padding-top: 1em;
+    }
+
+    .texto-banner {
+        padding-left: 100px;
+    }
+
+    .texto-banner h1 {
+        margin-bottom: -10px;
+    }
+
+    .texto-banner p:last-child {
+        font-size: 2em !important;
     }
 
     .titulo > div {
@@ -1163,8 +1238,8 @@ footer h2 {
     }
 
     .banner {
-        padding-top: 6em;
-        height: 500px;
+        padding-top: 4.5em;
+        height: 600px;
     }
 
     h2 {
