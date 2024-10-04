@@ -253,6 +253,8 @@ header {
     display: block;
     color: #e2e3c9;
     text-decoration: none;
+    font-weight: 600;
+    font-size: 17px !important;
 }
 
 #barra li a:hover {

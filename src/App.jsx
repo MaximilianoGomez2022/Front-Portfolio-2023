@@ -20,10 +20,10 @@ function App(){
                     <li><a href="#">cerrar</a></li>
                 </ul>
                 <ul id="barra">
-                    <li><a href="#sobremi-section">Sobre mí</a></li>
-                    <li><a href="#habilidades">Habilidades</a></li>
-                    <li><a href="#proyectos">Proyectos</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#sobremi-section">SOBRE MI</a></li>
+                    <li><a href="#habilidades">HABILIDADES</a></li>
+                    <li><a href="#proyectos">PROYECTOS</a></li>
+                    <li><a href="#contacto">CONTACTO</a></li>
                 </ul>
             </nav>
             </div>
