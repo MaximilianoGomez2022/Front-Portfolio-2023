@@ -100,11 +100,11 @@ function Content(props){
                 <div className='row justify-content-center'>
                     <div className="col-md-3 text-center">
                         <img src="pastilla-2.svg" alt="icono de programador frontend" />
-                        <h2>PROGRAMDOR FRONTEND</h2>
+                        <h2>PROGRAMADOR FRONTEND</h2>
                     </div>
                     <div className="col-md-3 text-center">
                         <img src="pastilla-3.svg" alt="icono de programador backend" />
-                        <h2>PROGRAMDOR BACKEND</h2>
+                        <h2>PROGRAMADOR BACKEND</h2>
                         </div>
                     <div className="col-md-3 text-center">
                         <img src="pastilla-1.svg" alt="icono de diesño responsive" />
