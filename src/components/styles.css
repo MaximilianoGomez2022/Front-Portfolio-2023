@@ -334,11 +334,47 @@ header {
     overflow-x: hidden;
 }
 
+/* PASTILLAS */
+
+#pastillas {
+    background-color: #2a2b2a;
+    padding: 3em;
+}
+
+#pastillas h2 {
+    color: #e2e3ac;
+    font-size: 1.4em;
+    text-align: center;
+}
+
+#pastillas img {
+    width: 150px;
+    margin: auto;
+    text-align: center;
+}
+
+#pastillas .col-md-3 {
+    margin-bottom: 50px;
+}
+
 #sobremi-section {
     width: 100%;
     margin: auto;
     padding-top: 8em;
     padding-bottom: 6em;
+}
+
+#sobremi-section .container {
+    margin-bottom: 30px;
+    background-image: url(/public/fondo-sobre-mi-1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sobremi-imagen {
+    width: 90%;
+    margin: auto;
+    border-radius: 5px;
 }
 
 .titulo {
@@ -995,6 +1031,12 @@ footer h2 {
     .banner {
         height: 390px;
         padding-top: 1.2em;
+    }
+
+    #pastillas img {
+        width: 200px;
+        margin: auto;
+        text-align: center;
     }
 
     .nosotros-video {

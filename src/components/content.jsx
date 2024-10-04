@@ -95,6 +95,24 @@ function Content(props){
                 {/* <div class="lds-ellipsis animate__animated animate__fadeOut animate__delay-2s"><div></div><div></div><div></div><div></div></div> */}
             </div>
             </section>
+            <section id='pastillas'>
+                <div className='container'>
+                <div className='row justify-content-center'>
+                    <div className="col-md-3 text-center">
+                        <img src="pastilla-2.svg" alt="icono de programador frontend" />
+                        <h2>PROGRAMDOR FRONTEND</h2>
+                    </div>
+                    <div className="col-md-3 text-center">
+                        <img src="pastilla-3.svg" alt="icono de programador backend" />
+                        <h2>PROGRAMDOR BACKEND</h2>
+                        </div>
+                    <div className="col-md-3 text-center">
+                        <img src="pastilla-1.svg" alt="icono de diesño responsive" />
+                        <h2>DISEÑO RESPONSIVE UX / UI</h2>
+                        </div>
+                </div>
+                </div>
+            </section>
 
             <div class="nosotros-bk">
             <div className='separador-sobremi'></div>
