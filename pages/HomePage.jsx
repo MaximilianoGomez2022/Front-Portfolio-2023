@@ -4,16 +4,6 @@ import '../src/components/bootstrap.min.css'
 
 function HomePage(){
 
-    const [proyectos, setProyectos] = useState([])
-
-    useEffect(()=>{
-        ProyectosServices.find()
-        .then(data => {
-            setProyectos(data)
-            console.log(data)
-        })
-    }, [])
-
    return ( 
             <div className="container">
             <div className="row">

@@ -368,7 +368,6 @@ header {
 
 #sobremi-section .container {
     margin-bottom: 30px;
-    background-image: url(/public/fondo-sobre-mi-1.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -465,7 +464,7 @@ header {
 
 #habilidades {
     background: #e2e3acba;
-    padding: 0px 0;
+    padding: 7em 0em;
 }
 
 #hablidades h3 {
@@ -571,6 +570,12 @@ header {
 
 .contenedor-proyecto {
     margin-bottom: 60px !important;
+}
+
+.card {
+    border: #303030 4px solid;
+    background-color: #1e1e1e;
+    text-align: left !important;
 }
 
 .contenedor-proyecto a {
@@ -1003,8 +1008,8 @@ footer h2 {
     }
 
     .article-logos .flex-container-habilidades > div  {
-        margin-bottom: 60px;
-        max-width: 370px;
+        margin-bottom: 10px;
+        max-width: 250px;
     }
 
 }
@@ -1061,6 +1066,10 @@ footer h2 {
         width: 32.7%;
     }
 
+    .titulo {
+        text-align: center;
+    }
+
 }
 
 @media only screen and (min-width: 991px) {
@@ -1080,10 +1089,6 @@ footer h2 {
 
     .texto-banner p:last-child {
         font-size: 2em !important;
-    }
-
-    .titulo > div {
-        width: 20%;
     }
 
     .sobremi {
@@ -1119,15 +1124,19 @@ footer h2 {
 
     }
 
+    .container-habilidades {
+        width: 90%;
+        margin: auto;
+    }
+
     .flex-container-habilidades {
         display: flex;
         flex-direction: row;
         justify-content: center;
-    
     }
 
     .flex-container-habilidades > div {
-        width: 27%;
+        width: 20%;
         margin: 47px;
         height: 420px;
     }
@@ -1342,17 +1351,22 @@ footer h2 {
         max-width: 300px !important;
     }
 
+    /* HABILIDADES */
 
-    .flex-container-habilidades > div {
-        width: 28%;
-        max-width: 370px;
-        margin: 45px;
-        height: 520px;
+    #habilidades h2 {
+        text-align: center;
     }
 
 
-    .titulo div {
-        width: 40%;
+    .flex-container-habilidades div {
+        width: 28%;
+        max-width: 100px;
+        margin: 45px;
+        height: auto;
+    }
+
+    .flex-container-habilidades h3 {
+        font-size: 1.6em;
     }
 
     .titulo h2 {
