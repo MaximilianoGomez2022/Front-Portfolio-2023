@@ -758,7 +758,7 @@ img {
 .contacto-form  input[type="submit"] {
     margin-top: 20px;
     width: 100%;
-    background: #c8c989;
+    background: #e2e3ac;
     color: rgb(32, 32, 32);
     padding: 10px;
     border-radius: 3px;
@@ -767,7 +767,7 @@ img {
 }
 
 .contacto-form input[type="submit"]:hover {
-    background: #b0b16e;
+    background: #bbbc84;
     transition: 1000ms;
     /* #18607b */
 }
