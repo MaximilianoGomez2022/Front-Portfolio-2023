@@ -40,7 +40,7 @@ function App(){
           </Content>
 
           <Footer>
-          <footer className='footer'>Maximiliano Gomez 2023 &copy; Todos los derechos reservados</footer>
+          <footer className='footer'>Maximiliano Gomez 2025 &copy; Todos los derechos reservados</footer>
           </Footer>
           </>
 }
