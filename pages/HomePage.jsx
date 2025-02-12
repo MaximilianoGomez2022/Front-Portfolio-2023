@@ -16,7 +16,7 @@ function HomePage(){
 
    return ( 
             <div className="container">
-            <div className="row">
+            <div className="row justify-content-center">
                 {proyectos.map(({_id, name, img,link, descripcion}) =>
                 <div key={_id} className="col-md-6 contenedor-proyecto">
                 <a target={"_blank"} href={`${link}`}>

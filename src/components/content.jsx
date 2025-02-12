@@ -231,24 +231,24 @@ function Content(props){
                 </div>
                 <div class="flex-container-habilidades">
                     <div data-aos="fade-right">
-                        <img src="logo-taste.svg" alt="Logo bianca 1"/>
+                        <img src="logo-taste.svg" alt="Logo Taste 1"/>
                     </div>
                     <div data-aos="fade-up">
-                        <img src="logo-taste-queso.svg" alt="Logo bianca 2"/>
+                        <img src="logo-taste-queso.svg" alt="Logo Taste 2"/>
                     </div>
                     <div data-aos="fade-left">
-                        <img src="logo-taste-jamon.svg" alt="Logo bianca 3"/>
+                        <img src="logo-taste-jamon.svg" alt="Logo Taste 3"/>
                     </div>
                 </div>
                 <div class="flex-container-habilidades">
                     <div data-aos="fade-right">
-                        <img src="autoclases-logo.svg" alt="Logo bianca 1"/>
+                        <img src="autoclases-logo.svg" alt="Logo autoclases 1"/>
                     </div>
                     <div data-aos="fade-up">
-                        <img src="autoclases-logo-2.svg" alt="Logo bianca 2"/>
+                        <img src="autoclases-logo-2.svg" alt="Logo autoclases 2"/>
                     </div>
                     <div data-aos="fade-left">
-                        <img src="autoclases-logo-blanco.svg" alt="Logo bianca 3"/>
+                        <img src="autoclases-logo-blanco.svg" alt="Logo autoclases 3"/>
                     </div>
                 </div>
             </article>
