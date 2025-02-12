@@ -259,7 +259,15 @@ function Content(props){
                     <h2>CONTACTO</h2>             
                 </div>
                 <div class="contacto container">
-                    <div class="contacto-form">
+                    <div className='row'>
+                    <div className='col-md-6'>
+                        
+                        <img src="contacto-img.svg" alt="" srcset="" />
+                    </div>
+                    <div class="contacto-form col-md-6">
+                    <h3>GRACIAS POR VISITAR MI PORTFOLIO</h3>
+                    <p>Me alegra que hayas llegado hasta aquí. Estaré encantado de leer tu mensaje y responder lo antes posible.</p>
+                    <p>¡Espero saber de ti pronto, saludos!</p>
                             <form ref={form} onSubmit={onSubmit}>
                             <div id='success-envio' className='success-envio-oculto'>
                             El mensaje se envió correctamente
@@ -293,6 +301,7 @@ function Content(props){
                             </div>
                             <input type="submit" value="Enviar"/>
                         </form>
+                    </div>
                     </div>
                 </div>
             </section>

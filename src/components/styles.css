@@ -1158,7 +1158,6 @@ footer h2 {
     }
 
     .contacto > div {
-        width: 65%;
         margin: auto;
     }
 
@@ -1398,6 +1397,16 @@ footer h2 {
 
     .contacto-form {
         margin: auto;
+        width: 45%;
+    }
+
+    .contacto img {
+        padding-left: 100px;
+    }
+
+    .contacto h3 {
+        font-size: 2em;
+        color: #e2e3ac;
     }
 
     .footer-container {
