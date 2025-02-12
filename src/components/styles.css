@@ -787,9 +787,10 @@ img {
 /* FOOTER */
 
 .footer {
-    background: #c8c989;
+    background: #1c1c1c;
     text-align: center;
     padding: 30px;
+    color: #484747;
 }
 
 footer h2 {
