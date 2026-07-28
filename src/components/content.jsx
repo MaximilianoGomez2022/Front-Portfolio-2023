@@ -142,9 +142,10 @@ function Content(props){
                     <p><b>AGENCIA VALOR DIGITAL</b>, haciendo los bocetos para los clientes y luego la maquetación y el diseño en css, en la plataforma Wordpress. Uso de Filezilla para subir archivos al servidor.</p>
                     <p>También trabajé en la empresa <b>FIXEAR</b>, como desarrollador front-end modificando un proyecto ya hecho, cambiando funcionalidad y diseños usando el framework Vue.js. Uso de gitlab para las versiones del proyecto y comandos desde la terminal para ubicar el proyecto en el servidor.</p>
                     <p><b>ACQ IT</b> Usando Laravel para el backend, modificando funcionalidades del sistema interno de la empresa basado en una ticketera de tareas y peticiones de los clientes. Uso de Teams, outlook, Microsoft SQL server para ver las bases de datos. Gitlab para las versiones del proyecto y las ramas de cada uno de nuestro equipo. Para el front end usamos javascript vanilla en el mismo blade de Laravel. Un poco de uso de docker.</p>
+                    <p><b>CASINOSOFT</b>Uso de Laravel para toda la aplicación. Integración de métodos de pago ( MercadoPago, EtPay, Cripten ). CRUD, Vistas, Reportes financieros. Conectarse a los servers mediante SSH y pem. Conectarse a la base mediante tunel ssh en Dbeaver. Consultas SQL. Javascript vanilla y jquery en los blade. AJAX. Uso de gitlab y docker.</p>
                     </div>
                     <div className='descargar-cv'>
-                        <a id='btn-descarga' className='btn btn-dark' href='./pdf/Maximiliano-Gomez-CV-2024.pdf' download='Maximiliano-Gomez-CV-2024.pdf'>Descargar CV</a>
+                        <a id='btn-descarga' className='btn btn-dark' href='./pdf/Maximiliano-Gomez-CV-2026.pdf' download='Maximiliano-Gomez-CV-2026.pdf'>Descargar CV</a>
                     </div>
                 </div>
             </div>
