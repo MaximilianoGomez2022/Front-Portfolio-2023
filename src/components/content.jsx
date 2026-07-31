@@ -92,6 +92,9 @@ function Content(props){
             <span className='hola'>HOLA SOY</span>
             <h1 className='animate__animated animate__fadeIn animate__delay-1s'>GOMEZ <br></br>MAXIMILIANO</h1>
                 <p>&lt;Desarrollador web/&gt;<span>&#160;</span></p>
+                <div className='descargar-cv-portada'>
+                    <a id='btn-descarga' className='btn btn-dark' style={{ backgroundColor: "rgb(226 227 172)", color: "#000 !important"}} href='./pdf/Maximiliano-Gomez-CV-2026.pdf' download='Maximiliano-Gomez-CV-2026.pdf'>Descargar CV</a>
+                </div>
                 {/* <div class="lds-ellipsis animate__animated animate__fadeOut animate__delay-2s"><div></div><div></div><div></div><div></div></div> */}
             </div>
             </section>
