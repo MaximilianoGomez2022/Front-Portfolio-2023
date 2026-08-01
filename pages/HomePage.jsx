@@ -17,7 +17,7 @@ function HomePage(){
    return (
   <div className="container">
     {proyectos.map(({ _id, name, video, link, descripcion }) => (
-      <div key={_id} className="row align-items-center contenedor-proyecto mb-5">
+      <div key={_id} className="row align-items-center contenedor-proyecto">
 
         {/* Video */}
         <div className="col-12 col-lg-6">
