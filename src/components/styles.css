@@ -682,6 +682,19 @@ img {
     margin-bottom: 10px !important;
 }
 
+.tecnologias {
+    display: flex;
+    gap: 35px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+    margin-bottom: 30px;
+}
+
+.icono-tecnologia {
+    width: 25px;
+    height: 25px;
+}
+
 .btn-primary {
     --bs-btn-color: #fff;
     --bs-btn-bg: #e2e3ac;

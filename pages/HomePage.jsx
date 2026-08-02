@@ -16,7 +16,7 @@ function HomePage(){
 
    return (
   <div className="container">
-    {proyectos.map(({ _id, name, video, link, descripcion }) => (
+    {proyectos.map(({ _id, name, video, link, descripcion, tecnologias }) => (
       <div key={_id} className="row align-items-center contenedor-proyecto">
 
         {/* Video */}
@@ -41,6 +41,19 @@ function HomePage(){
             <h3>{name}</h3>
             <p>{descripcion}</p>
 
+            {tecnologias && (
+              <div className="tecnologias">
+                {tecnologias.map((tech) => (
+                  <img
+                    key={tech}
+                    src={`${tech}-proyectos.svg`}
+                    alt={tech}
+                    className="icono-tecnologia"
+                  />
+                ))}
+              </div>
+            )}
+          
             <a
               className="btn btn-primary"
               href={link}
